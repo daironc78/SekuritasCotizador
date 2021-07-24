@@ -1,0 +1,660 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+  <head>
+      <!-- PAGE TITLE -->
+      <title>Home - Royal Cars</title>
+
+      <!-- META-DATA -->
+      <meta http-equiv="content-type" content="text/html; charset=utf-8" >
+      <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0">
+      <meta name="description" content="" >
+      <meta name="keywords" content="" >
+
+      <!-- FAVICON -->
+      <link rel="shortcut icon" href="assets/images/favicon.png">
+
+      <!-- CSS:: FONTS -->
+      <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700" rel="stylesheet">
+
+      <!-- CSS:: MAIN -->
+      <link rel="stylesheet" type="text/css" href="assets/css/main.css">
+      <link rel="stylesheet" type="text/css" id="r-color-roller" href="assets/color-files/color-04.css">
+
+  </head>
+  <body>
+      <div class="r-wrapper">
+        <header>
+          <div class="r-header r-header-inner">
+            <div class="r-header-strip">
+              <div class="container">
+                <div class="row clearfix">
+                  <div class="col-xl-3 col-lg-3 col-md-3 col-sm-3 col-xs-12">
+                    <div class="r-logo">
+                      <a href="index.html" class="d-inline-block"><img src="assets/images/logo.png" class="img-fluid d-block" alt=""></a>
+                    </div>
+                    <a href="javaScript:void(0)" class="menu-icon"> <i class="fa fa-bars"></i> </a>
+                  </div>
+                  <div class="col-xl-9 col-lg-9 col-md-9 col-sm-9 col-xs-12">
+                    <div class="r-header-action float-right">
+                      <a href="index.html"> <i class="fa fa-angle-up"></i><span>Volver</span></a>
+                      <a href="http://clientes.sekuritas.co/Home/Bienvenido"> <i class="fa fa-angle-up"></i><span>Inicio</span></a>
+                      <a href="login.html"> <i class="fa fa-lock"></i><span>Salir</span></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </header>
+        <br><br>
+        <section class="r-car-info-wrapper">
+          <div class="row">
+            <div class="col-lg-1 col-md-1 col-sm-1"></div>
+              <div class="col-lg-10 col-md-10 col-sm-10">
+              <div class="r-site-default-accordion">
+                <div class="r-accordion-header">
+                  <h2 class="r-accordion-heading">Cotización Placa: <strong id="strPlaca">[PLACA]</strong></h2>
+                  <strong><i class="fa fa-angle-up" id="formVisual"></i></strong>
+                </div>
+                <div class="r-accordion-body">
+                  <div class="row">
+                    <div class="col-md-3 col-sm-12 col-xs-12">
+                      <div class="form-group">
+                        <label>Asesor</label>
+                        <div class="input-group">
+                          <input type="text" class="form-control" value="[NOMBRE ASESOR]" readonly/>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-md-3 col-sm-12 col-xs-12">
+                      <div class="form-group">
+                        <label>Teléfono</label>
+                        <div class="input-group">
+                          <input type="text" class="form-control" value="[NUMERO TELEFONO]" readonly/>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-md-3 col-sm-12 col-xs-12">
+                      <div class="form-group">
+                        <label>Celular</label>
+                        <div class="input-group">
+                          <input type="text" class="form-control" value="[NUMERO CELULAR]" readonly/>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-md-3 col-sm-12 col-xs-12">
+                      <div class="form-group">
+                        <label>Correo Electrónico</label>
+                        <div class="input-group">
+                          <input type="text" class="form-control" value="[CORREO ELECTRÓNICO]" readonly/>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-md-3 col-sm-12 col-xs-12">
+                      <div class="form-group">
+                        <label>Asegurado</label>
+                        <div class="input-group">
+                          <input type="text" class="form-control" value="[NOMBRE ASEGURADO]" readonly/>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-md-3 col-sm-12 col-xs-12">
+                      <div class="form-group">
+                        <label>Número Documento</label>
+                        <div class="input-group">
+                          <input type="text" class="form-control" value="[NUMERO DOCUMENTO]" readonly/>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-md-3 col-sm-12 col-xs-12">
+                      <div class="form-group">
+                        <label>Género</label>
+                        <div class="input-group">
+                          <input type="text" class="form-control" value="[GENERO]" readonly/>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-md-3 col-sm-12 col-xs-12">
+                      <div class="form-group">
+                        <label>Fecha Nacimiento</label>
+                        <div class="input-group">
+                          <input type="text" class="form-control" value="[FECHA NACIMIENTO]" readonly/>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-md-3 col-sm-12 col-xs-12">
+                      <div class="form-group">
+                        <label>Ciudad</label>
+                        <div class="input-group">
+                          <input type="text" class="form-control" value="[CIUDAD]" readonly/>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-md-3 col-sm-12 col-xs-12">
+                      <div class="form-group">
+                        <label>Fecha</label>
+                        <div class="input-group">
+                          <input type="text" class="form-control" value="[FECHA]" readonly/>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-md-3 col-sm-12 col-xs-12">
+                      <div class="form-group">
+                        <label>Vehiculo</label>
+                        <div class="input-group">
+                          <input type="text" class="form-control" value="[VEHICULO]" readonly/>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-md-3 col-sm-12 col-xs-12">
+                      <div class="form-group">
+                        <label>MARCA</label>
+                        <div class="input-group">
+                          <input type="text" class="form-control" value="[MARCA]" readonly/>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-md-3 col-sm-12 col-xs-12">
+                      <div class="form-group">
+                        <label>Modelo</label>
+                        <div class="input-group">
+                          <input type="text" class="form-control" value="[MODELO]" readonly/>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-md-3 col-sm-12 col-xs-12">
+                      <div class="form-group">
+                        <label>Placa</label>
+                        <div class="input-group">
+                          <input type="text" class="form-control" value="[PLACA]" readonly/>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-md-3 col-sm-12 col-xs-12">
+                      <div class="form-group">
+                        <label>Tipo de Servicio</label>
+                        <div class="input-group">
+                          <input type="text" class="form-control" value="[TIPO DE SERVICIO]" readonly/>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-md-3 col-sm-12 col-xs-12">
+                      <div class="form-group">
+                        <label>Código Fasecolda</label>
+                        <div class="input-group">
+                          <input type="text" class="form-control" value="[MARCA]" readonly/>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-md-3 col-sm-12 col-xs-12">
+                      <div class="form-group">
+                        <label>Valor Accesorios</label>
+                        <div class="input-group">
+                          <input type="text" class="form-control" value="[VALOR ACCESORIOS]" readonly/>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-md-3 col-sm-12 col-xs-12">
+                      <div class="form-group">
+                        <label>Años Siniestro</label>
+                        <div class="input-group">
+                          <input type="text" class="form-control" value="[AÑOS SINIESTRO]" readonly/>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-md-3 col-sm-12 col-xs-12">
+                      <div class="form-group">
+                        <label>Clase</label>
+                        <div class="input-group">
+                          <input type="text" class="form-control" value="[CLASE]" readonly/>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-md-3 col-sm-12 col-xs-12">
+                      <div class="form-group">
+                        <label>Valor Fasecolda</label>
+                        <div class="input-group">
+                          <input type="text" class="form-control" value="[VALOR FASECOLDA]" readonly/>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              </div>
+            <div class="col-lg-1 col-md-1 col-sm-1"></div>
+          <div class="container">
+            <div class="r-car-whole-info">
+              <div class="row">
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                  <!-- inicio primera tabla -->
+                  <div class="r-car-info-content">
+                    <br>
+                    <div class="table-responsive">
+                      <table class="table table-bordered">
+                        <tr>
+                          <th rowspan="2" style="vertical-align:middle;">Producto</th>
+                          <th style="text-align: center; margin-top: auto;">
+                            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                              <ul class="r-fee-list">
+                                <li class="clearfix r-site-checkbox" style="list-style:none;right: 0;">
+                                  <label> <input type="checkbox" /><span class="r-site-checkbox-icon"><i class="fa fa-check-square"></i> </span> </label>
+                                </li>
+                              </ul>
+                            </div>
+                          </th>
+                          <th style="text-align: center; margin-top: 1px;">
+                            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                              <ul class="r-fee-list">
+                                <li class="clearfix r-site-checkbox" style="list-style:none;right: 0;">
+                                  <label> <input type="checkbox" /><span class="r-site-checkbox-icon"><i class="fa fa-check-square"></i> </span> </label>
+                                </li>
+                              </ul>
+                            </div>
+                          </th>
+                          <th style="text-align: center; margin-top: auto;">
+                            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                              <ul class="r-fee-list">
+                                <li class="clearfix r-site-checkbox" style="list-style:none;right: 0;">
+                                  <label> <input type="checkbox" /><span class="r-site-checkbox-icon"><i class="fa fa-check-square"></i> </span> </label>
+                                </li>
+                              </ul>
+                            </div>
+                          </th>
+                          <th style="text-align: center; margin-top: auto;">
+                            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                              <ul class="r-fee-list">
+                                <li class="clearfix r-site-checkbox" style="list-style:none;right: 0;">
+                                  <label> <input type="checkbox" /><span class="r-site-checkbox-icon"><i class="fa fa-check-square"></i> </span> </label>
+                                </li>
+                              </ul>
+                            </div>
+                          </th>
+                          <th style="text-align: center; margin-top: auto;">
+                            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                              <ul class="r-fee-list">
+                                <li class="clearfix r-site-checkbox" style="list-style:none;right: 0;">
+                                  <label> <input type="checkbox" /><span class="r-site-checkbox-icon"><i class="fa fa-check-square"></i> </span> </label>
+                                </li>
+                              </ul>
+                            </div>
+                          </th>
+                        </tr>
+                        <tr>
+                          <th style="text-align: center;">Plan Autos Basicos</th>
+                          <th style="text-align: center;">Plan Autos Clasicos</th>
+                          <th style="text-align: center;">Plan Autos Global</th>
+                          <th style="text-align: center;">Plan Autos Global Franquicia</th>
+                          <th style="text-align: center;">Plan Autos Plus</th>
+                        </tr>
+                        <tr>
+                          <th>Aseguradora</td>
+                          <td style="text-align: center;">[IMAGEN]</td>
+                          <td style="text-align: center;">[IMAGEN]</td>
+                          <td style="text-align: center;">[IMAGEN]</td>
+                          <td style="text-align: center;">[IMAGEN]</td>
+                          <td style="text-align: center;">[IMAGEN]</td>
+                        </tr>
+                        <tr>
+                          <th>Vigencia Cotización</td>
+                          <td>[TEXTO]</td>
+                          <td>[TEXTO]</td>
+                          <td>[TEXTO]</td>
+                          <td>[TEXTO]</td>
+                          <td>[TEXTO]</td>
+                        </tr>
+                        <tr>
+                          <th>Dias cotizados</td>
+                          <td>[TEXTO]</td>
+                          <td>[TEXTO]</td>
+                          <td>[TEXTO]</td>
+                          <td>[TEXTO]</td>
+                          <td>[TEXTO]</td>
+                        </tr>
+                        <tr>
+                          <th>Valor asegurado</td>
+                          <td>[TEXTO]</td>
+                          <td>[TEXTO]</td>
+                          <td>[TEXTO]</td>
+                          <td>[TEXTO]</td>
+                          <td>[TEXTO]</td>
+                        </tr>
+                        <tr>
+                          <th>Valor Prima (IVA Incluido)</td>
+                          <td>[TEXTO]</td>
+                          <td>[TEXTO]</td>
+                          <td>[TEXTO]</td>
+                          <td>[TEXTO]</td>
+                          <td>[TEXTO]</td>
+                        </tr>
+                        <tr>
+                          <th>Valor Prima (Mensual)</td>
+                          <td>[TEXTO]</td>
+                          <td>[TEXTO]</td>
+                          <td>[TEXTO]</td>
+                          <td>[TEXTO]</td>
+                          <td>[TEXTO]</td>
+                        </tr>
+                        <tr>
+                          <th>Nro. Cotización</td>
+                          <td>[TEXTO]</td>
+                          <td>[TEXTO]</td>
+                          <td>[TEXTO]</td>
+                          <td>[TEXTO]</td>
+                          <td>[TEXTO]</td>
+                        </tr>
+                      </table>
+                    </div>
+                    <!-- fin primera tabla -->
+                  </div>
+                  <br>
+                  <div class="r-car-info-content">
+                    <div class="row">
+                      <div class="col-lg-10 col-md-10 col-sm-12 col-xs-12">
+                        <h2 class="r-product-name">Coberturas/Amparos</h2>
+                      </div>
+                      <div class="col-lg-2 col-md-2 col-sm-12 col-xs-12">
+                        <button type="button" onclick="btnDetalleTables()" class="btn m-auto d-block btn-full">Detalle</button>
+                      </div>
+                    </div>
+                    <input type="hidden" id="estado" value="hide"/>
+                    <br><br>
+                  </div>
+                  <div id="detalleTables" style="display: none;">
+                    <!-- inicio segunda tabla -->
+                    <div class="r-car-info-content">
+                      <h2 class="r-product-name"><span>Responsabilidad Civil Extracontractual</span> </h2>
+                      <div class="table-responsive">
+                        <table class="table table-bordered">
+                          <tr>
+                            <th>Producto</td>
+                            <th style="text-align: center;">Plan Autos Basicos</th>
+                            <th style="text-align: center;">Plan Autos Clasicos</th>
+                            <th style="text-align: center;">Plan Autos Global</th>
+                            <th style="text-align: center;">Plan Autos Global Franquicia</th>
+                            <th style="text-align: center;">Plan Autos Plus</th>
+                          </tr>
+                          <tr>
+                            <th>Limite Global <br> Deducible</td>
+                            <td>[TEXTO 1]<br>[TEXTO 2]</td>
+                            <td>[TEXTO 1]<br>[TEXTO 2]</td>
+                            <td>[TEXTO 1]<br>[TEXTO 2]</td>
+                            <td>[TEXTO 1]<br>[TEXTO 2]</td>
+                            <td>[TEXTO 1]<br>[TEXTO 2]</td>
+                          </tr>
+                          <tr>
+                          <tr>
+                            <th>Limite Daños a bienes de terceros</td>
+                            <td>[TEXTO]</td>
+                            <td>[TEXTO]</td>
+                            <td>[TEXTO]</td>
+                            <td>[TEXTO]</td>
+                            <td>[TEXTO]</td>
+                          </tr>
+                          <tr>
+                            <th>Limite Lesiones o muerte a una persona</td>
+                            <td>[TEXTO]</td>
+                            <td>[TEXTO]</td>
+                            <td>[TEXTO]</td>
+                            <td>[TEXTO]</td>
+                            <td>[TEXTO]</td>
+                          </tr>
+                          <tr>
+                            <th>Limite Lesiones o muerte a dos o más personas</td>
+                            <td>[TEXTO]</td>
+                            <td>[TEXTO]</td>
+                            <td>[TEXTO]</td>
+                            <td>[TEXTO]</td>
+                            <td>[TEXTO]</td>
+                          </tr>
+                          <tr>
+                            <th>Limite Asistencia Jurídica Penal/Civil</td>
+                            <td>[TEXTO]</td>
+                            <td>[TEXTO]</td>
+                            <td>[TEXTO]</td>
+                            <td>[TEXTO]</td>
+                            <td>[TEXTO]</td>
+                          </tr>
+                          <tr>
+                            <th>Limite Responsabilidad Civil en Exceso</td>
+                            <td>[TEXTO]</td>
+                            <td>[TEXTO]</td>
+                            <td>[TEXTO]</td>
+                            <td>[TEXTO]</td>
+                            <td>[TEXTO]</td>
+                          </tr>
+                        </table>
+                      </div>
+                    </div>
+                    <!-- fin segunda tabla -->
+                    <br>
+                    <!-- inicio tercera tabla -->
+                    <div class="r-car-info-content">
+                      <h2 class="r-product-name"><span>Daños materiales/Hurto</span></h2>
+                      <div class="table-responsive">
+                        <table class="table table-bordered">
+                          <tr>
+                            <th>Producto</td>
+                            <th style="text-align: center;">Plan Autos Basicos</th>
+                            <th style="text-align: center;">Plan Autos Clasicos</th>
+                            <th style="text-align: center;">Plan Autos Global</th>
+                            <th style="text-align: center;">Plan Autos Global Franquicia</th>
+                            <th style="text-align: center;">Plan Autos Plus</th>
+                          </tr>
+                          <tr>
+                            <th>Pérdida Total por Daños<br>Deducible</td>
+                            <td>[TEXTO 1]<br>[TEXTO 2]</td>
+                            <td>[TEXTO 1]<br>[TEXTO 2]</td>
+                            <td>[TEXTO 1]<br>[TEXTO 2]</td>
+                            <td>[TEXTO 1]<br>[TEXTO 2]</td>
+                            <td>[TEXTO 1]<br>[TEXTO 2]</td>
+                          </tr>
+                          <tr>
+                          <tr>
+                            <th>Pérdida Parcial Daños<br>Deducible</td>
+                            <td>[TEXTO 1]<br>[TEXTO 2]</td>
+                            <td>[TEXTO 1]<br>[TEXTO 2]</td>
+                            <td>[TEXTO 1]<br>[TEXTO 2]</td>
+                            <td>[TEXTO 1]<br>[TEXTO 2]</td>
+                            <td>[TEXTO 1]<br>[TEXTO 2]</td>
+                          </tr>
+                          <tr>
+                            <th>Pérdida Total por Hurto<br>Deducible</td>
+                            <td>[TEXTO 1]<br>[TEXTO 2]</td>
+                            <td>[TEXTO 1]<br>[TEXTO 2]</td>
+                            <td>[TEXTO 1]<br>[TEXTO 2]</td>
+                            <td>[TEXTO 1]<br>[TEXTO 2]</td>
+                            <td>[TEXTO 1]<br>[TEXTO 2]</td>
+                          </tr>
+                          <tr>
+                            <th>Pérdida Parcial por Hurto <br> Deducible</td>
+                            <td>[TEXTO 1]<br>[TEXTO 2]</td>
+                            <td>[TEXTO 1]<br>[TEXTO 2]</td>
+                            <td>[TEXTO 1]<br>[TEXTO 2]</td>
+                            <td>[TEXTO 1]<br>[TEXTO 2]</td>
+                            <td>[TEXTO 1]<br>[TEXTO 2]</td>
+                          </tr>
+                          <tr>
+                            <th>Terremoto/Temblor/Erupción Volcánica<br> Deducible</td>
+                            <td>[TEXTO 1]<br>[TEXTO 2]</td>
+                            <td>[TEXTO 1]<br>[TEXTO 2]</td>
+                            <td>[TEXTO 1]<br>[TEXTO 2]</td>
+                            <td>[TEXTO 1]<br>[TEXTO 2]</td>
+                            <td>[TEXTO 1]<br>[TEXTO 2]</td>
+                          </tr>
+                        </table>
+                      </div>
+                    </div>
+                    <!-- fin tercera tabla -->
+                    <br>
+                    <!-- inicio cuarta tabla -->
+                    <div class="r-car-info-content">
+                      <h2 class="r-product-name"><span>Otras Coberturas</span></h2>
+                      <div class="table-responsive">
+                        <table class="table table-bordered">
+                          <tr>
+                            <th>Producto</td>
+                            <th style="text-align: center;">Plan Autos Basicos</th>
+                            <th style="text-align: center;">Plan Autos Clasicos</th>
+                            <th style="text-align: center;">Plan Autos Global</th>
+                            <th style="text-align: center;">Plan Autos Global Franquicia</th>
+                            <th style="text-align: center;">Plan Autos Plus</th>
+                          </tr>
+                          <tr>
+                            <th>Carro Taller</td>
+                            <td>[TEXTO]</td>
+                            <td>[TEXTO]</td>
+                            <td>[TEXTO]</td>
+                            <td>[TEXTO]</td>
+                            <td>[TEXTO]</td>
+                          </tr>
+                          <tr>
+                            <th>Revisión Antes del Viaje</td>
+                            <td>[TEXTO]</td>
+                            <td>[TEXTO]</td>
+                            <td>[TEXTO]</td>
+                            <td>[TEXTO]</td>
+                            <td>[TEXTO]</td>
+                          </tr>
+                          <tr>
+                            <th>Conductor Elegido/Vigencia</td>
+                            <td>[TEXTO]</td>
+                            <td>[TEXTO]</td>
+                            <td>[TEXTO]</td>
+                            <td>[TEXTO]</td>
+                            <td>[TEXTO]</td>
+                          </tr>
+                          <tr>
+                            <th>Servicio Grua</td>
+                            <td>[TEXTO]</td>
+                            <td>[TEXTO]</td>
+                            <td>[TEXTO]</td>
+                            <td>[TEXTO]</td>
+                            <td>[TEXTO]</td>
+                          </tr>
+                          <tr>
+                            <th>Gastos de trasporte en Caso de Siniestro</td>
+                            <td>[TEXTO]</td>
+                            <td>[TEXTO]</td>
+                            <td>[TEXTO]</td>
+                            <td>[TEXTO]</td>
+                            <td>[TEXTO]</td>
+                          </tr>
+                          <tr>
+                            <th>Vehículo de reemplazo</td>
+                            <td>[TEXTO]</td>
+                            <td>[TEXTO]</td>
+                            <td>[TEXTO]</td>
+                            <td>[TEXTO]</td>
+                            <td>[TEXTO]</td>
+                          </tr>
+                          <tr>
+                            <th>Accidentes al conducto</td>
+                            <td>[TEXTO]</td>
+                            <td>[TEXTO]</td>
+                            <td>[TEXTO]</td>
+                            <td>[TEXTO]</td>
+                            <td>[TEXTO]</td>
+                          </tr>
+                          <tr>
+                            <th>Accidentes a ocupantes</td>
+                            <td>[TEXTO]</td>
+                            <td>[TEXTO]</td>
+                            <td>[TEXTO]</td>
+                            <td>[TEXTO]</td>
+                            <td>[TEXTO]</td>
+                          </tr>
+                          <tr>
+                            <th>Pérdida de llaves</td>
+                            <td>[TEXTO]</td>
+                            <td>[TEXTO]</td>
+                            <td>[TEXTO]</td>
+                            <td>[TEXTO]</td>
+                            <td>[TEXTO]</td>
+                          </tr>
+                          <tr>
+                            <th>Asistencia Exequial</td>
+                            <td>[TEXTO]</td>
+                            <td>[TEXTO]</td>
+                            <td>[TEXTO]</td>
+                            <td>[TEXTO]</td>
+                            <td>[TEXTO]</td>
+                          </tr>
+                          <tr>
+                            <th>Asistencia en Viaje</td>
+                            <td>[TEXTO]</td>
+                            <td>[TEXTO]</td>
+                            <td>[TEXTO]</td>
+                            <td>[TEXTO]</td>
+                            <td>[TEXTO]</td>
+                          </tr>
+                          <tr>
+                            <th>Protección Patrimonial</td>
+                            <td>[TEXTO]</td>
+                            <td>[TEXTO]</td>
+                            <td>[TEXTO]</td>
+                            <td>[TEXTO]</td>
+                            <td>[TEXTO]</td>
+                          </tr>
+                        </table>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- fin cuarta tabla -->
+                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                    </div>
+                    <div class="r-car-info-content">
+                      <div class="row">
+                        <div class="col-lg-10 col-md-10 col-sm-0 col-xs-0"></div>
+                        <div class="col-lg-2 col-md-2 col-sm-2 col-xs-2">
+                          <button type="submit" class="btn m-auto d-block btn-full">Imprimir</button>
+                        </div>
+                      </div>
+                    </div>
+                    <br>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <footer>
+          <div class="r-footer">
+            <div class="container">
+              <div class="row clearfix r-footer-strip">
+                <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                  ©2021 Sekuritas S.A | Creado por <a href="https://www.americannetwork.com.co/" style="color: gray;">American Network S.A.</a>
+                </div>
+                <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                 <ul>
+                  <li><a href="https://twitter.com/sekuritassa"><i class="fa fa-twitter"></i>.<span>twitter</span></a></li>
+                 </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </footer>
+      </div>
+      <div id="r-to-top" class="r-to-top"><i class="fa fa-angle-up"></i></div>
+      <script src="assets/js/global.js"></script>
+      <script src="assets/js/eventos.js"></script>
+      <!-- JQUERY:: JQUERY.JS -->
+      <script src="assets/js/jquery.min.js"></script>
+
+      <!-- JQUERY:: BOOTSTRAP.JS -->
+      <script src="assets/js/tether.min.js"></script>
+      <script src="assets/js/bootstrap.min.js"></script>
+      <script src="assets/js/plugins/owl/owl.carousel.min.js"></script>
+      <script src="assets/js/plugins/owl/owl.carousel2.thumbs.js"></script>
+      <script src="assets/js/custom.js"></script>
+
+  </body>
+</html>

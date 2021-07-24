@@ -1,0 +1,503 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+  <head>
+      <!-- PAGE TITLE -->
+      <title>Sekuritas S.A</title>
+
+      <!-- META-DATA -->
+      <meta http-equiv="content-type" content="text/html; charset=utf-8" >
+      <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0">
+      <meta name="description" content="" >
+      <meta name="keywords" content="" >
+
+      <!-- FAVICON -->
+      <link rel="shortcut icon" href="assets/images/favicon.png">
+
+      <!-- CSS:: FONTS -->
+      <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700" rel="stylesheet">
+
+      <!-- CSS:: ANIMATE -->
+      <link rel="stylesheet" type="text/css" href="assets/css/plugins/animate/animate.css">
+      
+      <!-- CSS:: MAIN -->
+      <link rel="stylesheet" type="text/css" href="assets/css/main.css">
+      <link rel="stylesheet" type="text/css" id="r-color-roller" href="assets/color-files/color-04.css">
+
+  </head>
+  <body>
+      <div class="r-wrapper">
+        <header>
+          <div class="r-header r-header-inner">
+            <div class="r-header-strip">
+              <div class="container">
+                <div class="row clearfix">
+                  <div class="col-xl-3 col-lg-3 col-md-3 col-sm-3 col-xs-12">
+                    <div class="r-logo">
+                      <a href="index.html" class="d-inline-block"><img src="assets/images/logo.png" class="img-fluid d-block" alt=""></a>
+                    </div>
+                    <a href="javaScript:void(0)" class="menu-icon"> <i class="fa fa-bars"></i> </a>
+                  </div>
+                  <div class="col-xl-9 col-lg-9 col-md-9 col-sm-9 col-xs-12">
+                    <div class="r-header-action float-right">
+                      <a href="index.html"> <i class="fa fa-angle-up"></i><span>Volver</span></a>
+                      <a href="http://clientes.sekuritas.co/Home/Bienvenido"> <i class="fa fa-angle-up"></i><span>Inicio</span></a>
+                      <a href="login.html"> <i class="fa fa-lock"></i><span>Salir</span></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </header> 
+        <section id="r-drivers-part" class="r-drivers-part">
+          <div class="container">
+            <div class="row clearfix">
+              <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-xs-12">
+              </div>
+              <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                <div class="r-driver-detail">
+                  <br>
+                  <div class="r-head" id="Titulo1">Datos del Vehículo</div>
+                  <div class="r-head" id="Titulo2" style="display: none;">Datos del Cliente</div>
+                  <form action="cotizacionVehiculo.html">
+                    <div id="form1Event">
+                      <div class="row">
+                        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                          <div class="form-group has-icon has-label">
+                            <label for="formModelo" style="background-color: #0000004d; margin: 4%; color:white;"> Modelo/Año </label>
+                            <input type="text" class="form-control" id="formModelo" placeholder="Ingrese la Modelo/Año">
+                          </div>
+                        </div>
+                        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                          <div class="form-group has-icon has-label">
+                            <label for="formFasecolda" style="background-color: #0000004d; margin: 4%; color:white;"> Código Fasecolda </label>
+                            <input type="text" class="form-control" id="formFasecolda" placeholder="Ingrese Código Fasecolda">
+                          </div>
+                        </div>
+                      </div>
+                      <div class="row">
+                        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                          <div class="form-group has-icon has-label">
+                            <label for="formPlaca" style="background-color: #0000004d; margin: 4%; color:white;"> Placa </label>
+                            <input type="text" class="form-control" id="formPlaca" placeholder="Ingrese la Placa">
+                          </div>
+                        </div>
+                        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                          <div class="form-group has-icon has-label">
+                            <label for="formVehiculo" style="background-color: #0000004d; margin: 4%; color:white;"> Valor del Vehiculo </label>
+                            <input type="text" class="form-control" id="formVehiculo" placeholder="Ingrese Valor del Vehiculo">
+                          </div>
+                        </div>
+                      </div>
+                      <div class="row">
+                        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                          <div class="form-group">
+                            <label for="formClase" style="background-color: #0000004d; margin: 4%; color:white;">Clase Vehiculo</label>
+                            <select class="form-control" id="formClase">
+                              <option>Opcion 1</option>
+                              <option>Opcion 2</option>
+                            </select>
+                          </div>
+                        </div>
+                        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                          <div class="form-group">
+                            <label for="formMarca" style="background-color: #0000004d; margin: 4%; color:white;">Marca Vehiculo</label>
+                            <select class="form-control" id="formMarca">
+                              <option>Opcion 1</option>
+                              <option>Opcion 2</option>
+                            </select>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="row">
+                        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-0"></div>
+                        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                          <div class="form-group">
+                            <button  type="button" class="form-control btn btn-primary" onclick="form1Event()">Siguiente</button>
+                          </div>
+                        </div>
+                        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-0"></div>
+                      </div>
+                    </div>
+                    <div id="form2Event" style="display: none;">
+                      <div class="row">
+                        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                          <div class="form-group">
+                            <label for="fromReferencia" style="background-color: #0000004d; margin: 4%; color:white;">Referencia Vehiculo</label>
+                            <select class="form-control" id="fromReferencia">
+                              <option>Opcion 1</option>
+                              <option>Opcion 2</option>
+                            </select>
+                          </div>
+                        </div>
+                        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                          <div class="form-group">
+                            <label for="formServicio" style="background-color: #0000004d; margin: 4%; color:white;">Tipo Servicio</label>
+                            <select class="form-control" id="formServicio">
+                              <option>Opcion 1</option>
+                              <option>Opcion 2</option>
+                            </select>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="row">
+                        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                          <div class="form-group">
+                            <label for="formUso" style="background-color: #0000004d; margin: 4%; color:white;">Uso</label>
+                            <select class="form-control" id="formUso">
+                              <option>Opcion 1</option>
+                              <option>Opcion 2</option>
+                            </select>
+                          </div>
+                        </div>
+                        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                          <div class="form-group has-icon has-label">
+                            <label for="formCilindraje" style="background-color: #0000004d; margin: 4%; color:white;"> Cilindraje Vehiculo </label>
+                            <input type="number" class="form-control" id="formCilindraje" placeholder="Ingrese cilindraje vehiculo">
+                          </div>
+                        </div>
+                      </div>
+                      <div class="row">
+                        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                          <div class="form-group">
+                            <label for="formDepartamento" style="background-color: #0000004d; margin: 4%; color:white;">Departamento Circulación</label>
+                            <select class="form-control" id="formDepartamento">
+                              <option>Opcion 1</option>
+                              <option>Opcion 2</option>
+                            </select>
+                          </div>
+                        </div>
+                        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                          <div class="form-group">
+                            <label for="formCiudad" style="background-color: #0000004d; margin: 4%; color:white;">Ciudad Circulacion</label>
+                            <select class="form-control" id="formCiudad">
+                              <option>Opcion 1</option>
+                              <option>Opcion 2</option>
+                            </select>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="row">
+                        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                          <div class="form-group">
+                            <button  type="button" class="form-control btn btn-primary" onclick="form2Event()">Volver</button>
+                          </div>
+                        </div>
+                        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                          <div class="form-group">
+                            <button  type="button" class="form-control btn btn-primary" onclick="form3Event()">Siguiente</button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div id="form3Event" style="display: none;">
+                      <div class="row">
+                        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                          <div class="form-group">
+                            <label class="form-check-input" for="formAccesorios" style="background-color: #0000004d; margin: 4%; color:white;">¿El vehiculo posee Accesorios?</label><br>
+                            <input type="checkbox" class="form-check-label" id="formAccesorios">
+                          </div>
+                        </div>
+                        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                          <div class="form-group">
+                            <label class="form-check-input" for="formBlindaje" style="background-color: #0000004d; margin: 4%; color:white;">¿El vehiculo posee Blindaje?</label><br>
+                            <input type="checkbox" class="form-check-label" id="formBlindaje">
+                          </div>
+                        </div>
+                      </div>
+                      <div class="row">
+                        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                          <div class="form-group has-icon has-label">
+                            <label for="formValorAccesorios" style="background-color: #0000004d; margin: 4%; color:white;"> Valor Accesorios </label>
+                            <input type="number" class="form-control" id="formValorAccesorios" placeholder="Ingrese valor accesorios">
+                          </div>
+                        </div>
+                        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                          <div class="form-group has-icon has-label">
+                            <label for="formValorBlindaje" style="background-color: #0000004d; margin: 4%; color:white;"> Valor Blindaje </label>
+                            <input type="number" class="form-control" id="formValorBlindaje" placeholder="Ingrese valor blindaje">
+                          </div>
+                        </div>
+                      </div>
+                      <div class="row">
+                        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-0"></div>
+                        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                          <div class="form-group">
+                            <label for="formNivel" style="background-color: #0000004d; margin: 4%; color:white;">Nivel de Blindaje</label>
+                            <select class="form-control" id="formNivel">
+                              <option>Opcion 1</option>
+                              <option>Opcion 2</option>
+                            </select>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="row">
+                        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                          <div class="form-group">
+                            <button  type="button" class="form-control btn btn-primary" onclick="form4Event()">Volver</button>
+                          </div>
+                        </div>
+                        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                          <div class="form-group">
+                            <button  type="button" class="form-control btn btn-primary" onclick="form5Event()">Siguiente</button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div id="form4Event" style="display: none;">
+                      <div class="row">
+                        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                          <div class="form-group">
+                            <label for="formTipoDocumento" style="background-color: #0000004d; margin: 2%; color:white;">Tipo Documento</label>
+                            <select class="form-control" id="formTipoDocumento">
+                              <option>Opcion 1</option>
+                              <option>Opcion 2</option>
+                            </select>
+                          </div>
+                        </div>
+                        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                          <div class="form-group has-icon has-label">
+                            <label for="formDocumento" style="background-color: #0000004d; margin: 2%; color:white;"> Numero Documento </label>
+                            <input type="number" class="form-control" id="formDocumento" placeholder="Ingrese Documento">
+                          </div>
+                        </div>
+                      </div>
+                      <div class="row">
+                        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                          <div class="form-group has-icon has-label">
+                            <label for="formNombre" style="background-color: #0000004d; margin: 2%; color:white;">Nombre</label>
+                            <input type="text" class="form-control" id="formNombre" placeholder="Ingrese Nombre">
+                          </div>
+                        </div>
+                        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                          <div class="form-group">
+                            <label for="formFecha" style="background-color: #0000004d; margin: 2%; color:white;">Fecha Nacimiento</label>
+                            <input type="date" class="form-control" id="formFecha">
+                          </div>
+                        </div>
+                      </div>
+                      <div class="row">
+                        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                          <div class="form-group">
+                            <label for="formDepartamento2" style="background-color: #0000004d; margin: 2%; color:white;">Departamento</label>
+                            <select class="form-control" id="formDepartamento2">
+                              <option>Opcion 1</option>
+                              <option>Opcion 2</option>
+                            </select>
+                          </div>
+                        </div>
+                        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                          <div class="form-group">
+                            <label for="formCiudad2" style="background-color: #0000004d; margin: 2%; color:white;">Ciudad</label>
+                            <select class="form-control" id="formCiudad2">
+                              <option>Opcion 1</option>
+                              <option>Opcion 2</option>
+                            </select>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="row">
+                        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                          <div class="form-group">
+                            <button  type="button" class="form-control btn btn-primary" onclick="form6Event()">Volver</button>
+                          </div>
+                        </div>
+                        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                          <div class="form-group">
+                            <button  type="button" class="form-control btn btn-primary" onclick="form7Event()">Siguiente</button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div id="form5Event" style="display: none;">
+                      <div class="row">
+                        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                          <div class="form-group">
+                            <label for="formCorreo" style="background-color: #0000004d; margin: 2%; color:white;">Correo Electrónico</label>
+                            <input type="email" class="form-control" id="formCorreo" placeholder="Ingrese Correo Electrónico">
+                          </div>
+                        </div>
+                        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                          <div class="form-group has-icon has-label">
+                            <label for="formNumero" style="background-color: #0000004d; margin: 2%; color:white;"> Número Celular </label>
+                            <input type="number" class="form-control" id="formNumero" placeholder="Ingrese número celular">
+                          </div>
+                        </div>
+                      </div>
+                      <div class="row">
+                        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                          <div class="form-group">
+                            <label for="formOcupacion" style="background-color: #0000004d; margin: 2%; color:white;">Ocupación</label>
+                            <select class="form-control" id="formOcupacion">
+                              <option>Opcion 1</option>
+                              <option>Opcion 2</option>
+                            </select>
+                          </div>
+                        </div>
+                        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                          <div class="form-group has-icon has-label">
+                            <label for="formSiniestro" style="background-color: #0000004d; margin: 2%; color:white;"> Años siniestro </label>
+                            <input type="number" class="form-control" id="formSiniestro" placeholder="Ingrese Años siniestro">
+                          </div>
+                        </div>
+                      </div>
+                      <div class="row">
+                        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                          <div class="form-group has-icon has-label">
+                            <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                            <label class="form-check-label" for="flexRadioDefault1" style="background-color: #0000004d; margin: 2%; color:white;">Hombre</label>
+                          </div>
+                        </div>
+                        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                          <div class="form-group has-icon has-label">
+                            <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2">
+                            <label class="form-check-label" for="flexRadioDefault2" style="background-color: #0000004d; margin: 2%; color:white;">Mujer</label>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="row">
+                        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                          <div class="form-group">
+                            <button  type="button" class="form-control btn btn-primary" onclick="form8Event()">Volver</button>
+                          </div>
+                        </div>
+                        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                          <div class="form-group">
+                            <button type="submit" class="form-control btn btn-primary">Cotizar</button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </form>
+                </div>
+              </div>
+            </div>
+            <div class="r-driver-blog">
+              <div class="owl-carousel" id="r-driver-slider">
+                <div class="r-driver-box">
+                  <div class="r-drivers">
+                    <div class="r-drivers-detail">
+                      <div class="name">CEMEX <br>Seguros</div>
+                      <div class="text" style="color: black">125 Años de<br>experiencia</div>
+                      <div class="icon">
+                          <a href="https://www.facebook.com/CemexColombia/?hc_ref=ARQbJC9TI71DxZoaCubw25LiMRPiYavMRzKplzA1XMJ6GaCblwRN4eR1_qD-2ag9MSY&fref=nf&__tn__=kC-R"> <i class="fa fa-facebook" aria-hidden="true"></i> </a>
+                          <a href="https://twitter.com/CEMEX_Colombia"> <i class="fa fa-twitter" aria-hidden="true"></i> </a>
+                          <a href="https://www.instagram.com/cemexcolombia/?hl=es-la"> <i class="fa fa-instagram" aria-hidden="true"></i> </a>
+                      </div>
+                    </div>
+                    <div class="drivers-img">
+                      <img src="assets/images/Cemex.jpg" class="img-fluid d-block m-auto" alt="" >
+                    </div>
+                  </div>
+                </div>
+                <div class="r-driver-box">
+                  <div class="r-drivers">
+                    <div class="r-drivers-detail">
+                      <div class="name">SBS <br>Seguros</div>
+                      <div class="text" style="color: black">90 Años de<br>experiencia</div>
+                      <div class="icon">
+                          <a href="https://www.facebook.com/pages/category/Insurance-Company/SBS-Seguros-Colombia-110957867310578/"> <i class="fa fa-facebook" aria-hidden="true"></i> </a>
+                          <a href="https://www.instagram.com/sbsseguroscolombia/?igshid=7396n7mrriv9&hl=es"> <i class="fa fa-instagram" aria-hidden="true"></i> </a>
+                      </div>
+                    </div>
+                    <div class="drivers-img">
+                      <img src="assets/images/SBS.jpg" class="img-fluid d-block m-auto" alt="">
+                    </div>
+                  </div>
+                </div>
+                <div class="r-driver-box">
+                  <div class="r-drivers">
+                    <div class="r-drivers-detail">
+                      <div class="name">Allianz <br>Seguros</div>
+                      <div class="text" style="color: black">41 Años de<br>experiencia</div>
+                      <div class="icon">
+                          <a href="https://www.facebook.com/AllianzColombia/"> <i class="fa fa-facebook" aria-hidden="true"></i> </a>
+                          <a href="https://twitter.com/allianzcol"> <i class="fa fa-twitter" aria-hidden="true"></i> </a>
+                          <a href="https://www.instagram.com/allianzcol/?hl=es"> <i class="fa fa-instagram" aria-hidden="true"></i> </a>
+                      </div>
+                    </div>
+                    <div class="drivers-img">
+                      <img src="assets/images/Allianz.jpg" class="img-fluid d-block m-auto" alt="">
+                    </div>
+                  </div>
+                </div>
+                <div class="r-driver-box">
+                  <div class="r-drivers">
+                    <div class="r-drivers-detail">
+                      <div class="name">AXA <br>Colpatria</div>
+                      <div class="text" style="color: black">57 Años de<br>experiencia</div>
+                      <div class="icon">
+                          <a href="https://www.facebook.com/AXACOLPATRIA/"> <i class="fa fa-facebook" aria-hidden="true"></i> </a>
+                          <a href="https://twitter.com/axacolpatria?lang=es"> <i class="fa fa-twitter" aria-hidden="true"></i> </a>
+                          <a href="https://www.instagram.com/axacolpatriaoficial/?hl=es-la"> <i class="fa fa-instagram" aria-hidden="true"></i> </a>
+                      </div>
+                    </div>
+                    <div class="drivers-img">
+                      <img src="assets/images/axaColpatria.jpg" class="img-fluid d-block m-auto" alt="">
+                    </div>
+                  </div>
+                </div>
+                <div class="r-driver-box">
+                  <div class="r-drivers">
+                    <div class="r-drivers-detail">
+                      <div class="name">MAPFRE <br>Seguros</div>
+                      <div class="text" style="color: black">28 Años de<br>experiencia</div>
+                      <div class="icon">
+                          <a href="https://es-la.facebook.com/MAPFREco/"> <i class="fa fa-facebook" aria-hidden="true"></i> </a>
+                          <a href="https://twitter.com/MAPFRE_CO?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor"> <i class="fa fa-twitter" aria-hidden="true"></i> </a>
+                          <a href="https://www.instagram.com/mapfre_seguros_colombia/?hl=es"> <i class="fa fa-instagram" aria-hidden="true"></i> </a>
+                      </div>
+                    </div>
+                    <div class="drivers-img">
+                      <img src="assets/images/Mapfre.jpg" class="img-fluid d-block m-auto" alt="">
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            
+          </div>
+        </section>
+        <footer>
+          <div class="r-footer">
+            <div class="container">
+              <div class="row clearfix r-footer-strip">
+                <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                  ©2021 Sekuritas S.A | Creado por <a href="https://www.americannetwork.com.co/" style="color: gray;">American Network S.A.</a>
+                </div>
+                <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                 <ul>
+                   <li><a href="https://twitter.com/sekuritassa"><i class="fa fa-twitter"></i>.<span>twitter</span></a></li>
+                 </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </footer>
+      </div>
+      <div id="r-to-top" class="r-to-top"><i class="fa fa-angle-up"></i></div>
+      <script src="assets/js/eventos.js"></script>
+      <!-- JQUERY:: JQUERY.JS -->
+      <script src="assets/js/jquery.min.js"></script>
+
+      <!-- JQUERY:: APPEAR.JS -->
+      <script src="assets/js/plugins/appear/appear.js"></script>
+
+      <!-- JQUERY:: COUNTER.JS -->
+      <script src="assets/js/plugins/counter/jquery.easing.min.js"></script>
+      <script src="assets/js/plugins/counter/counter.min.js"></script>
+
+      <!-- JQUERY:: BOOTSTRAP.JS -->
+      <script src="assets/js/tether.min.js"></script>
+      <script src="assets/js/bootstrap.min.js"></script>
+
+      <!-- JQUERY:: PLUGINS -->
+      <script src="assets/js/plugins/owl/owl.carousel.min.js"></script>
+      <script src="assets/js/plugins/lightcase/lightcase.js"></script>
+      <script src="assets/js/plugins/owl/owl.carousel2.thumbs.js"></script>
+
+      <!-- JQUERY:: CUSTOM -->
+      <script src="assets/js/custom.js"></script>
+
+  </body>
+</html>
